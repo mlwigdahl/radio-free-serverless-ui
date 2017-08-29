@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import RFSJumbo from './main/RFSJumbo.js';
+import RFSNav from './main/RFSNav.js';
 import './App.css';
 import logo from './logo.svg';
 
 const App = () => 
   <div className="App">
     <RFSJumbo />
+    <RFSNav />
   </div>
 
 export default App;
