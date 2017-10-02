@@ -2,7 +2,7 @@ import React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 
 const RFSJumbo = () =>
-    <Jumbotron>
+    <Jumbotron className="jumbo">
         <h1>Radio Free Serverless</h1>
         <p />
     </Jumbotron>

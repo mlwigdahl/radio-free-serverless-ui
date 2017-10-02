@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import RFSJumbo from './main/RFSJumbo.js';
-import RFSNav from './main/RFSNav.js';
-import RFSFooter from './main/RFSFooter.js';
-import RFSPostList from './main/RFSPostList.js';
+import Jumbo from './main/RFSJumbo.js';
+import Nav from './main/RFSNav.js';
+import Footer from './main/RFSFooter.js';
+import PostList from './main/RFSPostList.js';
 import './App.css';
 import logo from './logo.svg';
 
 const App = () => 
   <div className="App">
-    <RFSJumbo />
-    <RFSNav />
-    <RFSPostList />
-    <RFSFooter />
+    <Jumbo />
+    <Nav />
+    <PostList />
+    <Footer />
   </div>
 
 export default App;
